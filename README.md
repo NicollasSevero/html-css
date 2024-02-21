@@ -1,7 +1,6 @@
 # html-css
  Projetos em HTML, CSS e JS
 
- Evoluindo Sempre !
 
 <a href="https://nicollassevero.github.io/html-css/projetos/projeto-casamento/casamento.html">Site Projeto Casamento</a>
 <br>
