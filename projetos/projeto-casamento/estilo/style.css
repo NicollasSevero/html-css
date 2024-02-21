@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+:root{
+    --fonte-codigo:"Kalam", cursiva;
+    --fonte-parisiense: "Parisienne", cursiva;
+    --fonte-tangerina: "Tangerine", cursiva;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+header p{
+    padding-top: 5px;
+    font-family: var(--fonte-codigo);
+    font-size: 1.3em;
+    color: rgb(223, 223, 223);
+    text-shadow: 2px 2px black;
+}
+
+body{
+    background-image:linear-gradient(to right, #7A0230, #FA82B0, #FFDAE8);
+}
+
+main{
+    border-radius: 20px;
+    background-color: #E4EAF4;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    padding-bottom: 50px;
+}
+
+main > h2{
+    font-family:var(--fonte-tangerina);
+    padding: 15px;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-decoration: underline 2px;
+    text-align: center;
+    
+}
+
+main article h1{
+    font-size: 2em;
+    padding-top: 15px;
+    background-image: linear-gradient(to right,#FFC0BC, transparent,#FFC0BC);
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px #7A0230;
+}
+
+main article h2{
+    padding: 35px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #7c342a;
+}
+
+main img{
+    width: 100%; 
+    max-width: 700px;
+}
+
+main img.pequena{
+    max-width: 250px;
+    padding-top: 45px;
+}
+
+main img.pequena2{
+    max-width: 250px;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main article p{
+    text-align: center;
+    margin: auto;
+    text-align: justify;
+    text-indent: 45px;
+    padding: 0px 50px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+    background-color: aqua;
+}
+
+footer{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+footer p {
+    padding-bottom: 50px;
+    font-family: var(--fonte-codigo);
+    font-size: 1.3em;
+
+}
+
+footer p.redes {
+    text-align: left;
+    line-height: 1em;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 25px;
+}
+
