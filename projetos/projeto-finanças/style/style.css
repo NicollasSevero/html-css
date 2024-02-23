@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0%;
+}
+
+body {
+    background-image: url('../imagens/imagem01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section{
+    max-width: 300px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.login{
+    background-color: bisque;
+    padding: 20px;
+}
+
+section.login > h1{
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > header > h2{
+    padding-bottom: 15px;
+}
+
+section > header{
+    background-color: white;
+    padding: 0px 30px 30px 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.432);
+}
+
+section > header > div.login {
+    text-align: left;
+    border: solid ;
+    padding-bottom: 20px;
+    font-size: 0.7em;
+}
+
+section > header > div.senha {
+    border: solid ;
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 0.7em;
+}
+
+section > header > div.entrar {
+    border: solid ;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: rgba(146, 207, 231, 0.582);
+    width: 120px;
+    display: block;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: brown;
+}
