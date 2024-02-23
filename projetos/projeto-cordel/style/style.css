@@ -66,6 +66,7 @@ section.imagem {
     color: white;
     background-attachment: fixed;
     background-size: cover;
+    height: 100vh;
 }
 
 section.imagem > p {
