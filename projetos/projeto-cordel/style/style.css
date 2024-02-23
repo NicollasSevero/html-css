@@ -64,6 +64,8 @@ section.normal {
 section.imagem {
     background-color: rgba(59, 26, 26, 0.603);
     color: white;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section.imagem > p {
@@ -76,16 +78,12 @@ section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 section#img02 {
     background-image: url('../imagens/background002.jpg');
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 
