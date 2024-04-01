@@ -81,17 +81,27 @@ header {
     color: black;
  }
 
-section.imagens {
+section.imagens_one {
    position: absolute;
    transform: translate(-30px,0px);
-   width: 100%;
+   width: max-content;
    height: 100%;
-   display: block;
+   display:inline-block;
    right: 50%;
    top: 15%;
    left: 20%;
 }
 
+section.imagens_two {
+   position: absolute;
+   transform: translate(-30px,0px);
+   width: max-content;
+   height: 100%;
+   display:inline-block;
+   right: 50%;
+   top: 48%;
+   left: 20%;
+}
 img{
    padding-left:10px;
 }
