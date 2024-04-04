@@ -66,8 +66,8 @@ a {
 
 a:hover > li{
     color: cyan;
-    text-decoration: ;
 }
+
 .branco {
     background-color: rgba(255, 255, 255, 0.842);
     border-radius: 20px;
