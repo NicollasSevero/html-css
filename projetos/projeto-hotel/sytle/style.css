@@ -14,6 +14,10 @@ body{
     background-attachment: fixed;
 }
 
+section {
+    max-width: 1100px ;
+}
+
 header{
     color: white;
     background-color: rgba(0, 0, 0, 0.459);
@@ -22,15 +26,34 @@ header{
 
 header > h1 {
     text-align: center;
-    font-size: 3.5em;
-    padding: 40px;
+    font-size: 8em;
     margin: auto;
-    animation-name: flip, 3s;
+
+   background-image: url(../imagens/praia_gif.gif);
+   background-repeat: repeat;
+   background-position: center;
+   color: transparent;
+   background-clip:text;
+    
+}
+
+header > h1.principal {
+    text-align: center;
+    font-size: 4em;
+    margin: auto;
+    
+   background-image: url(../imagens/praia_gif.gif);
+   background-repeat: repeat;
+   background-position: center;
+   color: transparent;
+   background-clip:text;
+    
 }
 
 nav {
     padding-bottom: 15px;
 }
+
 nav > ul > a > li {
     display:inline;
     padding-left: 25px;
@@ -41,17 +64,22 @@ a {
     text-decoration: none;
 }
 
+a:hover > li{
+    color: cyan;
+    text-decoration: ;
+}
 .branco {
-    background-color: rgba(255, 255, 255, 0.788);
+    background-color: rgba(255, 255, 255, 0.842);
     border-radius: 20px;
-    max-width: 1250px ;
     margin: auto;
     text-align: center;
+    margin-top: 2%;
 }
 
 .branco > h2{
     text-indent: 15px;
-    
+    padding-top: 25px;
+    font-size: 2em;
 }
 .container {
     display: flex;
@@ -60,4 +88,55 @@ a {
     text-align: center;
     margin: auto;
     justify-content: center;
+    padding-right: 15px;
+}
+
+.container > p {
+    padding-right: 50px;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+
+
+
+
+.preto{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.preto > h2{
+    text-indent: 15px;
+    padding-top: 25px;
+    font-size: 2em;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.container2 > p {
+    padding-right: 50px;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+.botoes {
+    max-width: 1100px ;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    display:flex;
+    padding: 15px;
 }
