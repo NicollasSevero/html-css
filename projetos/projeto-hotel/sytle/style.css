@@ -133,10 +133,5 @@ a:hover > li{
 }
 
 .botoes {
-    max-width: 1100px ;
-    margin: auto;
-    margin-top: 2%;
-    background-color: white;
-    display:flex;
-    padding: 15px;
+    background-color: pink;
 }
