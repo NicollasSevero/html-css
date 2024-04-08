@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-image: url(../imagens/imagem_fundo.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 0px 0px 20px 20px;
+}
+
+header > h1.principal {
+    text-align: center;
+    font-size: 4em;
+    margin: auto; 
+   background-image: url(../imagens/praia_gif.gif);
+   background-repeat: repeat;
+   background-position: center;
+   color: transparent;
+   background-clip:text;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 8em;
+    margin: auto;
+
+   background-image: url(../imagens/praia_gif.gif);
+   background-repeat: repeat;
+   background-position: center;
+   color: transparent;
+   background-clip:text;
+    
+}
+
+nav {
+    padding-bottom: 15px;
+}
+
+nav > ul > a > li {
+    display:inline;
+    padding-left: 25px;
+    color: white;
+}
+
+.formulario {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 150px;
+    line-height: 1.5em;
+}
+
+.formulario > h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover > li{
+    color: cyan;
+}

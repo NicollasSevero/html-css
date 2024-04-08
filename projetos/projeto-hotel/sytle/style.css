@@ -132,6 +132,22 @@ a:hover > li{
     font-size: 1.5em;
 }
 
-.botoes {
-    background-color: pink;
+.rodape {
+    margin: auto;
+}
+
+.rodape > div {
+    border: solid 1px black;
+    padding: 15px;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    border-radius: 20px;
+}
+
+.rodape > h3 {
+    text-align: center;
 }

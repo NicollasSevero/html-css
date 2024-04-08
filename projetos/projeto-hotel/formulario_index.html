@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="sytle/style_formulario.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="principal">HOSPEDAGENS</h1> <h1>HOTEÍS</h1>
+    <nav>
+        <ul>
+            <a href="C:\Users\user\Desktop\estudos\html-css\projetos\projeto-hotel\index1.html"><li>HOME</li></a>
+            <a href=""><li>CONTATOS</li></a>
+            <a href="C:\Users\user\Desktop\estudos\html-css\projetos\projeto-hotel\reclame_index.html"><li>RECLAMAÇÕES</li></a>
+        </ul>
+    </nav>
+</header>
+
+    <section class="formulario">
+        <h2>FORMULARIO DE VIAGEM</h2>
+        <form action="/submit_form.php" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="local">Local de Destino:</label><br>
+        <input type="text" id="local" name="local" required><br><br>
+        <label for="quantidade">Quantidade de Pessoas:</label><br>
+        <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
+        <label for="data">Data da Viagem:</label><br>
+         <input type="date" id="data" name="data" required><br><br>
+        <label for="motivo">Motivo da Viagem:</label><br>
+        <select id="motivo" name="motivo" required>
+            <option value="">Selecione o motivo</option>
+            <option value="Férias">Férias</option>
+            <option value="Negócios">Negócios</option>
+            <option value="Visita a Família/Amigos">Visita a Família/Amigos</option>
+            <option value="Outro">Outro</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+</body>
+</html>
