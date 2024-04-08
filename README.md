@@ -8,4 +8,4 @@
 <br>
 &#128279;<a href="https://nicollassevero.github.io/html-css/projetos/projeto-cordel/index.html" target="_blank">Site Projeto poema Cordel</a>
 <br>
-&#128279;<a href="https://nicollassevero.github.io/html-css/projetos/projeto-hotel/index1.html ">Site Projeto Hotel</a>
+&#128279;<a href="https://nicollassevero.github.io/html-css/projetos/projeto-hotel/index1.html " target="_blank">Site Projeto Hotel </a>
