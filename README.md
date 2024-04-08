@@ -7,3 +7,5 @@
 &#128279;<a href="https://nicollassevero.github.io/html-css/projetos/projeto-android-curso/android.html" target="_blank">Site Projeto Android</a>
 <br>
 &#128279;<a href="https://nicollassevero.github.io/html-css/projetos/projeto-cordel/index.html" target="_blank">Site Projeto poema Cordel</a>
+
+&#128279;<a href="https://nicollassevero.github.io/html-css/projetos/projeto-hotel/index1.html "></a>
