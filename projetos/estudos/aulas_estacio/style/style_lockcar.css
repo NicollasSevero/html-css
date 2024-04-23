@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+*{}
+
+header{
+    background-color: rgb(174, 174, 255);
+}
+
+header > h1,h2 {
+    text-align: center;
+}
