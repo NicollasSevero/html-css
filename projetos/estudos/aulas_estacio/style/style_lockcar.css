@@ -9,3 +9,12 @@ header{
 header > h1,h2 {
     text-align: center;
 }
+
+p.card-text {
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+button.btn-primary {
+    text-align: center;
+}
