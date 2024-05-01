@@ -68,6 +68,9 @@ a:hover > li{
     color: cyan;
 }
 
+.container, .container2 > p > button > a {
+    text-decoration: none;
+}
 .branco {
     background-color: rgba(255, 255, 255, 0.842);
     border-radius: 20px;
